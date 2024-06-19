@@ -1,0 +1,26 @@
+Documentation:
+
+Importing Scapy:
+
+what is SCapy?
+a powerful Python library used for network packet manipulation, capturing, and analysis.
+
+We import necessary components from scapy to capture and analyze packets.
+
+Packet Callback Function:
+ This function is called for every captured packet. It extracts and prints relevant information.
+
+Main Function: 
+Starts the packet sniffer and calls the packet_callback function for each captured packet.
+
+Running the Packet Sniffer
+1)Save the script in a .py file.
+2)Run the script with administrator/root privileges because packet capturing requires elevated permissions.
+
+Ethical Considerations
+1)Permission: Ensure you have explicit permission to capture and analyze network traffic on the network you are monitoring.
+2)Legal Compliance: Be aware of and comply with local laws and regulations regarding network monitoring.
+3)Transparency: Inform network users about the monitoring and its purpose.
+
+Educational Purpose
+Use this tool for learning and understanding how network traffic works, how different protocols interact, and for developing network security skills. Avoid using this tool for malicious purposes such as intercepting private communications without consent.
